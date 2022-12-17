@@ -1,0 +1,88 @@
+<div class="d">
+  <li><a class="active" href="profile.html">Profile</a></li>
+  <li><a href="career.html">Career</a></li>
+  <li><a href="travel.html">Travel</a></li>
+</div>
+
+
+
+
+<style>
+body {
+  background-color: darkolivegreen;
+}
+
+.p {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: cadetblue;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.p li {
+  float: left;
+}
+
+.p li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.p li a:hover:not(.active) {
+  background-color: darkcyan;
+}
+
+.p .active {
+  background-color: darkcyan;
+}
+
+.p1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  background-color: olive;
+  font-size: 18px;
+  overflow: auto;
+  height: 1000px;
+}
+
+.p1 li a {
+  display: block;
+  background-color: olive;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.p1 li a.active {
+  background-color: darkcyan;
+  color: white;
+}
+
+.p1 li a:hover:not(.active) {
+  background-color: darkcyan;
+  color: white;
+}
+
+.p2 {
+  margin-left: center;
+  text-align: center;
+}
+
+.p3 {
+  text-align: center;
+  margin-right: center;
+  font-style:arial;
+  
+}
+
+
